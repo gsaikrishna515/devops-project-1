@@ -1,17 +1,17 @@
-variable "bucket_name" {
-  type        = string
-  description = "Remote state bucket name"
-}
+# variable "bucket_name" {
+#   type        = string
+#   description = "Remote state bucket name"
+# }
 
-variable "name" {
-  type        = string
-  description = "Tag name"
-}
+# variable "name" {
+#   type        = string
+#   description = "Tag name"
+# }
 
-variable "environment" {
-  type        = string
-  description = "Environment name"
-}
+# variable "environment" {
+#   type        = string
+#   description = "Environment name"
+# }
 
 variable "vpc_cidr" {
   type        = string
@@ -53,7 +53,7 @@ variable "ec2_user_data_install_apache" {
   description = "Script for installing the Apache2"
 }
 
-variable "domain_name" {
-  type = string
-  description = "Name of the domain"
-}
+# variable "domain_name" {
+#   type = string
+#   description = "Name of the domain"
+# }
